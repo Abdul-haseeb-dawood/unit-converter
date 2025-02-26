@@ -56,14 +56,14 @@ class LengthConverter:
             return f"Error: {str(e)}"
 
 def main():
-    st.set_page_config(page_title="Length Unit Converter", page_icon="📏")
+    st.set_page_config(page_title="Length Unit Converter", page_icon="🧮")
     
     # Add custom CSS
     st.markdown("""
         <style>
         .stApp {
-        background: linear-gradient(to right,rgb(133, 172, 217),rgb(247, 217, 228));
-        color: purple;
+        background: linear-gradient(to top,rgb(226, 167, 235),rgb(243, 196, 185));
+        color: maroon;
     }
         .main {
             padding: 2rem;
@@ -75,7 +75,7 @@ def main():
     """, unsafe_allow_html=True)
     
     # Title and description
-    st.title("📏 Length Unit Converter")
+    st.title("🧮 Length Unit Converter")
     st.markdown("Convert between different units of length measurement")
     
     # Initialize converter
